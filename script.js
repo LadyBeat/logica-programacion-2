@@ -1,5 +1,6 @@
 function convertirTemperatura() {
     let celsius = document.getElementById('celsius').value;
+    //En el script, el .value se utiliza para obtener el valor actual de un campo de entrada (<input>).
     celsius = parseFloat(celsius);
     //convertimos a float para que no haya problemas al hacer la operación
 
